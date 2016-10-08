@@ -1,6 +1,6 @@
 (function () {
 
-angular.module('data')
+angular.module('Data')
 .service('MenuDataService', MenuDataService);
 
 

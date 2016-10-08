@@ -1,14 +1,14 @@
 (function () {
 
-angular.module('data', []);
+angular.module('Data', []);
 
-angular.module('data')
+angular.module('Data')
 .constant('ApiBasePath', "https://davids-restaurant.herokuapp.com")
 .config(function () {
-  console.log("data config fired.");
+  console.log("Data config fired.");
 })
 .run(function () {
-  console.log("data run fired.");
+  console.log("Data run fired.");
 });
 
 })();
