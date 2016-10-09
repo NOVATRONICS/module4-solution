@@ -20,3 +20,7 @@ div.tabs {
   left: 50%;
   top: 10px;
 }
+
+body {
+	background-color: rgba(29, 221, 190, 0.36);
+}
